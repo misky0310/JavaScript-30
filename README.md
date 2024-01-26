@@ -4,7 +4,7 @@ Welcome to the JavaScript 30-Day Challenge! This challenge is designed to improv
 Project Structure<br><br>
     Each project folder follows a similar structure:<br>
         index.html: The main HTML file for the project.<br>
-        style.css: The stylesheet for styling the project.<br>    
+        style.css: The stylesheet for styling the project.    
         script.js: The JavaScript file containing the code for the project.<br><br>
 Resources<br>
 JavaScript30: The official website for the JavaScript 30-Day Challenge by Wes Bos.<br>
