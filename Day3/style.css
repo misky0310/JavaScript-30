@@ -1,0 +1,49 @@
+:root{
+    --spacing:10px;
+    --base:#ffc600;
+    --blur:10px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(17, 17, 49);
+    
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+img{
+    width: 50%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+
+    padding: var(--spacing);
+    background-color: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl{
+    color: var(--base);
+}
+
+label{
+    font-size: 1.6rem;
+}

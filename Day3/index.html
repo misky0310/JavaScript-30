@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="content">
+            <h1>Update CSS variables with <span class="hl">JS</span></h1>
+            <div class="controls">
+                <label for="spacing">Spacing : </label>
+                <input type="range" name="spacing" min="0" max="200" value="10" data-sizing="px">
+                <label for="blur">Blur : </label>
+                <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+                <label for="base">Base : </label>
+                <input type="color" name="base" value="#ffc600">
+            </div>
+            <img src="./image.jpg" alt="">
+        </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
